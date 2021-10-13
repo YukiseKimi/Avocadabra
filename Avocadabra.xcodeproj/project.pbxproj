@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1316F86E271732E500E2F1EE /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316F86D271732E500E2F1EE /* HeaderView.swift */; };
 		1361DA832716F4090023941D /* AvocadabraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361DA822716F4090023941D /* AvocadabraApp.swift */; };
 		1361DA852716F4090023941D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361DA842716F4090023941D /* ContentView.swift */; };
 		1361DA872716F40C0023941D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1361DA862716F40C0023941D /* Assets.xcassets */; };
 		1361DA8A2716F40C0023941D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1361DA892716F40C0023941D /* Preview Assets.xcassets */; };
+		1361DA932716FD190023941D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1361DA922716FD190023941D /* LaunchScreen.storyboard */; };
+		1361DA9A271702F20023941D /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361DA99271702F20023941D /* AvocadosView.swift */; };
+		1361DA9C271703190023941D /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361DA9B271703190023941D /* RipeningStagesView.swift */; };
+		1361DA9E2717032E0023941D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361DA9D2717032E0023941D /* SettingsView.swift */; };
+		1361DAA0271703460023941D /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361DA9F271703460023941D /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1316F86D271732E500E2F1EE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		1361DA7F2716F4090023941D /* Avocadabra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocadabra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1361DA822716F4090023941D /* AvocadabraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadabraApp.swift; sourceTree = "<group>"; };
 		1361DA842716F4090023941D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1361DA862716F40C0023941D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1361DA892716F40C0023941D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1361DA922716FD190023941D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1361DA99271702F20023941D /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
+		1361DA9B271703190023941D /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		1361DA9D2717032E0023941D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1361DA9F271703460023941D /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,11 @@
 		1361DA812716F4090023941D /* Avocadabra */ = {
 			isa = PBXGroup;
 			children = (
+				1361DA96271702810023941D /* View */,
+				1361DA952717027B0023941D /* Model */,
+				1361DA94271702730023941D /* Data */,
+				1361DA922716FD190023941D /* LaunchScreen.storyboard */,
 				1361DA822716F4090023941D /* AvocadabraApp.swift */,
-				1361DA842716F4090023941D /* ContentView.swift */,
 				1361DA862716F40C0023941D /* Assets.xcassets */,
 				1361DA882716F40C0023941D /* Preview Content */,
 			);
@@ -65,6 +80,33 @@
 				1361DA892716F40C0023941D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1361DA94271702730023941D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1361DA952717027B0023941D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1361DA96271702810023941D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1361DA9F271703460023941D /* AppView.swift */,
+				1361DA842716F4090023941D /* ContentView.swift */,
+				1361DA99271702F20023941D /* AvocadosView.swift */,
+				1316F86D271732E500E2F1EE /* HeaderView.swift */,
+				1361DA9B271703190023941D /* RipeningStagesView.swift */,
+				1361DA9D2717032E0023941D /* SettingsView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1361DA932716FD190023941D /* LaunchScreen.storyboard in Resources */,
 				1361DA8A2716F40C0023941D /* Preview Assets.xcassets in Resources */,
 				1361DA872716F40C0023941D /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +180,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1361DA9E2717032E0023941D /* SettingsView.swift in Sources */,
 				1361DA852716F4090023941D /* ContentView.swift in Sources */,
+				1361DAA0271703460023941D /* AppView.swift in Sources */,
 				1361DA832716F4090023941D /* AvocadabraApp.swift in Sources */,
+				1361DA9C271703190023941D /* RipeningStagesView.swift in Sources */,
+				1361DA9A271702F20023941D /* AvocadosView.swift in Sources */,
+				1316F86E271732E500E2F1EE /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,15 +314,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Avocadabra/Preview Content\"";
 				DEVELOPMENT_TEAM = 4V4WYXA8NM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Avocadabra/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -296,15 +348,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Avocadabra/Preview Content\"";
 				DEVELOPMENT_TEAM = 4V4WYXA8NM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Avocadabra/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
