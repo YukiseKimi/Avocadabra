@@ -31,6 +31,12 @@ struct AppView: View {
                     Text("Settings")
                 })
         }
+        .onAppear {
+            if #available(iOS 15.0, *) {
+                let appearance = UITabBarAppearance()
+                UITabBar.appearance().scrollEdgeAppearance = appearance
+            }
+        }
         .edgesIgnoringSafeArea(.top)
         .accentColor(Color.primary)
     }
@@ -40,6 +46,5 @@ struct AppView: View {
 struct AppView_Previews: PreviewProvider {
     static var previews: some View {
         AppView()
-        
     }
 }
