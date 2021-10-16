@@ -9,9 +9,10 @@ import SwiftUI
 
 struct DishesView: View {
     var body: some View {
-        HStack() {
-            VStack {
-                // 1st Column
+        HStack(alignment: .center, spacing: 4) {
+            
+            // 1st Column
+            VStack(alignment: .leading, spacing: 4) {
                 HStack(){
                     Image("icon-toasts")
                         .resizable()
@@ -45,9 +46,22 @@ struct DishesView: View {
                     Text("Spreads")
                 }
             }
-            Image(systemName: "heart.circle")
             
-            VStack {
+            // 2nd Column
+            VStack(alignment: .center, spacing: 16) {
+                HStack {
+                    Divider()
+                }
+                Image(systemName: "heart.circle")
+                    .font(Font.title.weight(.ultraLight))
+                    .imageScale(.large)
+                HStack {
+                    Divider()
+                }
+            }
+            
+            // 3rd Column
+            VStack(alignment: .trailing, spacing: 4) {
                 HStack() {
                     Text("Guacamole")
                     Spacer()
@@ -55,24 +69,29 @@ struct DishesView: View {
                         .resizable()
                         .modifier(IconModifier())
                 }
+                Divider()
                 HStack() {
-                    Text("Guacamole")
+                    Text("Sandwich")
                     Spacer()
-                    Image("icon-guacamole")
+                    Image("icon-sandwiches")
                         .resizable()
                         .modifier(IconModifier())
                 }
+                Divider()
+
                 HStack() {
-                    Text("Guacamole")
+                    Text("Soup")
                     Spacer()
-                    Image("icon-guacamole")
+                    Image("icon-soup")
                         .resizable()
                         .modifier(IconModifier())
                 }
+                Divider()
+
                 HStack() {
-                    Text("Guacamole")
+                    Text("smoothies")
                     Spacer()
-                    Image("icon-guacamole")
+                    Image("icon-smoothies")
                         .resizable()
                         .modifier(IconModifier())
                 }
