@@ -30,14 +30,14 @@ struct HeaderView: View {
                 Rectangle()
                     .fill (Color("ColorGreenLight"))
                     .frame(width: 4)
-                           
+                
                 VStack (alignment: .leading, spacing: 6) {
                     Text(header.headline)
                         .font(.system(.title, design: .serif))
                         .fontWeight(.bold)
                         .foregroundColor(Color.white)
                         .shadow(radius: 3)
-                        
+                    
                     Text(header.subheadline)
                         .font(.footnote)
                         .lineLimit(2)
@@ -48,7 +48,7 @@ struct HeaderView: View {
                 .padding(.vertical, 0)
                 .padding(.horizontal, 20)
                 .frame(width: 281, height: 105)
-            .background(Color("ColorBlackTransparentLight"))
+                .background(Color("ColorBlackTransparentLight"))
             }
             .frame(width: 285, height: 105, alignment: .center)
             .offset(x: -66, y: showHeadline ? 75 : 220)
@@ -65,6 +65,6 @@ struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
         HeaderView(header: headersData[1])
             .previewLayout(.sizeThatFits)
-//            .environment(\.colorScheme, .dark)
+        //            .environment(\.colorScheme, .dark)
     }
 }

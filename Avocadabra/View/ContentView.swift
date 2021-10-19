@@ -19,7 +19,7 @@ struct ContentView: View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack(alignment: .center, spacing: 20) {
                 
-                // MARK: -header
+                // MARK: - HEADER
                 
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack(alignment: .top, spacing: 0) {
@@ -28,15 +28,16 @@ struct ContentView: View {
                         }
                     }
                 }
-                // MARK: -Dishes
+                
+                // MARK: - DISHES
                 Text("Avocado Dishes")
                 .fontWeight(.bold)
                 .modifier(TitleModifier())
                 
                 DishesView()
                     .frame(maxWidth: 640)
-                // MARK: - AVOCADO FACTS
                 
+                // MARK: - AVOCADO FACTS
                 Text("Avocado Facts")
                     .fontWeight(.bold)
                     .modifier(TitleModifier())
@@ -66,7 +67,6 @@ struct ContentView: View {
                 .padding(.horizontal)
                 
                 // MARK: - FOOTER
-                
                 VStack(alignment: .center, spacing: 20) {
                     Text("All about Avocados")
                         .fontWeight(.bold)
