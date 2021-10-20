@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1316F86E271732E500E2F1EE /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1316F86D271732E500E2F1EE /* HeaderView.swift */; };
+		1347CBC327205EB100316113 /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1347CBC227205EB100316113 /* RipeningView.swift */; };
+		1347CBC52720C4A200316113 /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1347CBC42720C4A200316113 /* RipeningModel.swift */; };
+		1347CBC72720C51000316113 /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1347CBC62720C51000316113 /* RipeningData.swift */; };
 		1361DA832716F4090023941D /* AvocadabraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361DA822716F4090023941D /* AvocadabraApp.swift */; };
 		1361DA852716F4090023941D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361DA842716F4090023941D /* ContentView.swift */; };
 		1361DA872716F40C0023941D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1361DA862716F40C0023941D /* Assets.xcassets */; };
@@ -33,6 +36,9 @@
 
 /* Begin PBXFileReference section */
 		1316F86D271732E500E2F1EE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1347CBC227205EB100316113 /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		1347CBC42720C4A200316113 /* RipeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		1347CBC62720C51000316113 /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
 		1361DA7F2716F4090023941D /* Avocadabra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocadabra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1361DA822716F4090023941D /* AvocadabraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadabraApp.swift; sourceTree = "<group>"; };
 		1361DA842716F4090023941D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +118,7 @@
 				13C36615271B029900555B1D /* HeaderData.swift */,
 				13A44452271DBC2C00BE3B11 /* FactData.swift */,
 				13A44456271DC0F400BE3B11 /* RecipeData.swift */,
+				1347CBC62720C51000316113 /* RipeningData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -122,6 +129,7 @@
 				13C36613271B023800555B1D /* HeaderModel.swift */,
 				13A44450271DB77F00BE3B11 /* FactModel.swift */,
 				13A44454271DC07400BE3B11 /* RecipeModel.swift */,
+				1347CBC42720C4A200316113 /* RipeningModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -141,6 +149,7 @@
 				13A44458271DC19C00BE3B11 /* RecipeCardView.swift */,
 				13A4445C271DD8B200BE3B11 /* RecipeCookingView.swift */,
 				13A4445E271F205A00BE3B11 /* RecipeDetailView.swift */,
+				1347CBC227205EB100316113 /* RipeningView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -218,8 +227,10 @@
 			files = (
 				1361DA9E2717032E0023941D /* SettingsView.swift in Sources */,
 				13A4445B271DD8A400BE3B11 /* RecipeRatingView.swift in Sources */,
+				1347CBC52720C4A200316113 /* RipeningModel.swift in Sources */,
 				1361DA852716F4090023941D /* ContentView.swift in Sources */,
 				1361DAA0271703460023941D /* AppView.swift in Sources */,
+				1347CBC72720C51000316113 /* RipeningData.swift in Sources */,
 				1361DA832716F4090023941D /* AvocadabraApp.swift in Sources */,
 				1361DA9C271703190023941D /* RipeningStagesView.swift in Sources */,
 				1361DA9A271702F20023941D /* AvocadosView.swift in Sources */,
@@ -228,6 +239,7 @@
 				13C36616271B029900555B1D /* HeaderData.swift in Sources */,
 				13C36618271B34F300555B1D /* DishesView.swift in Sources */,
 				13A4445D271DD8B200BE3B11 /* RecipeCookingView.swift in Sources */,
+				1347CBC327205EB100316113 /* RipeningView.swift in Sources */,
 				13A44451271DB77F00BE3B11 /* FactModel.swift in Sources */,
 				13C3661A271C796800555B1D /* FactsView.swift in Sources */,
 				13A44459271DC19C00BE3B11 /* RecipeCardView.swift in Sources */,
